@@ -1,14 +1,18 @@
 {
-  "name": "g-endec",
+  "name": "gendec",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple cli password based encryption decryption tool for a single file using aes-256-cbc algorithm.",
   "main": "index.js",
+  "bin": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["encryption", "decryption", "aes-256-cbc", "password", "cli", "tool"],
+  "author": {
+    "name": "GrayHat",
+    "email": "grayhathacks10@gmail.com"
+  },
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.0.1",

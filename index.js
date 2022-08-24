@@ -8,7 +8,6 @@ import fs from "fs";
 import path from "path";
 import { decrypt, encrypt } from "./crypto.js";
 import { Command } from "commander";
-// import * as pckg from "./package.json";
 
 function encryptFile(filepath, password, enc_file_name = null) {
     let name = path.basename(filepath);
